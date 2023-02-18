@@ -292,22 +292,22 @@
 						<h5 class="section-subHead mt-3"> My Experience</h5>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div>
-								<h5>Senior Architect</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2015 - Present | Google</h6>
+								<h5>Full Stack-Web Developer</h5>
+								<h6 class="badge badge-dark d-inline-block my-3">2022 - Present | Js Techno Solution Pvt Ltd</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
 						</div>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div>
-								<h5>Front-end Developer</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2013 - 2015 | Facebook Inc.</h6>
+								<h5>Back-end Developer</h5>
+								<h6 class="badge badge-dark d-inline-block my-3">2021 - 2022 | Js Techno Solution Pvt Ltd.</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
 						</div>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
 							<div>
-								<h5>UI Developer</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2011 - 2013 | Envato.</h6>
+								<h5>Front-End Developer</h5>
+								<h6 class="badge badge-dark d-inline-block my-3">2020 - 2021 | Js Techno Solution Pvt Ltd.</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
 						</div>
@@ -317,21 +317,21 @@
 						<h5 class="section-subHead mt-3"> My Education</h5>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div>
-								<h5>Master in Arts</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2006-2008</h6>
+								<h5>Bachelor in Commerce</h5>
+								<h6 class="badge badge-dark d-inline-block my-3">2010-2013</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
 						</div>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div>
-								<h5>Art University</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2006-2008</h6>
+								<h5>S.B.Vidhyalay</h5>
+								<h6 class="badge badge-dark d-inline-block my-3">2008-2010</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
 						</div>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
 							<div>
-								<h5>Art University</h5>
+								<h5>S.B.Vidhyalay</h5>
 								<h6 class="badge badge-dark d-inline-block my-3">2006-2008</h6>
 								<p>Collaborate with creative and development teams on the execution of ideas.</p>
 							</div>
@@ -341,32 +341,32 @@
 
 				<div class="row mt-4">
 					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> Design Skills</h5>
+						<h5 class="section-subHead mt-3"> Front-End Skills</h5>
 						<div class="resume-panel b-box hover-state p-4 mt-3">
 
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s">
-								<h6>Graphic Design </h6>
+								<h6>HTML5</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Logo Design</h6>
+								<h6>CSS</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Logo Design</h6>
+								<h6>Bootstrap</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Photoshop & Figma</h6>
+								<h6>Javascript & Jquery</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -378,28 +378,28 @@
 						<h5 class="section-subHead mt-3"> Coding Skills</h5>
 						<div class="resume-list b-box hover-state p-4 mt-3">
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s">
-								<h6>RWD</h6>
+								<h6>Core PHP</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Bootstrap</h6>
+								<h6>Advance PHP</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Jekyll</h6>
+								<h6>Laravel</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Javascript</h6>
+								<h6>Wordpress</h6>
 								<div class="progress mt-2" style="height: 7px;">
 									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -571,7 +571,7 @@
 									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
 										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
 										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+										<span class="font-weight-bold mt-3 d-block">- Alpesh Patel, Senior Developer</span>
 									</div>
 								</div>
 
@@ -579,7 +579,7 @@
 									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
 										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
 										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+										<span class="font-weight-bold mt-3 d-block">- Aarti Thakkar, Web Developer</span>
 									</div>
 								</div>
 
@@ -587,7 +587,7 @@
 									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
 										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
 										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+										<span class="font-weight-bold mt-3 d-block">- Bharat Rangani, Client</span>
 									</div>
 								</div>
 
@@ -595,7 +595,7 @@
 									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
 										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
 										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+										<span class="font-weight-bold mt-3 d-block">- Hardik, Client</span>
 									</div>
 								</div>
 
@@ -603,7 +603,7 @@
 									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
 										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
 										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+										<span class="font-weight-bold mt-3 d-block">- Jignesh, Client</span>
 									</div>
 								</div>
 
@@ -762,7 +762,7 @@
 										<i class="fas fa-map-marked-alt"></i>
 									</div>
 									<div class="mt-2">
-										<a href="#" class="">144 Mangan St, Miami, FL</a>
+										<a href="#" class="">Ahmedabad,Gujarat,India 382345</a>
 										<p class="mt-1 font-weight-bold ">Address</p>
 									</div>
 								</div>
@@ -773,7 +773,7 @@
 										<i class="fas fa-mobile-alt  "></i>
 									</div>
 									<div class="mt-2">
-										<a href="tel:9876543210" class="">+987 654 3210</a>
+										<a href="tel:9876543210" class="">+903 388 9873</a>
 										<p class="mt-1 font-weight-bold ">Call Us</p>
 									</div>
 								</div>
@@ -784,7 +784,7 @@
 										<i class="fas fa-envelope  "></i>
 									</div>
 									<div class="mt-2">
-										<a href="mailto:hello@beingeorge.com">hello@beingeorge.com</a>
+										<a href="mailto:hello@beingeorge.com">prajapatimitesh180893@gmail.com</a>
 										<p class="mt-1 font-weight-bold ">Email Us</p>
 									</div>
 								</div>
