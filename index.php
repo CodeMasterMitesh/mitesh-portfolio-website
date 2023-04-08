@@ -2,870 +2,1763 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mitesh - Web Developer</title>
-	<meta name="description" content="Mitesh - Web Developer" />
-	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
-	<meta name="author" content="beingeorge" />
-	<meta name="theme-color" content="#2a2d35">
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mitesh - Personal Portfolio Template">
 
-	<!-- Vendor Css-->
-	<link rel="stylesheet" href="assets/css/vendor.css" />
+    <!-- ========== Page Title ========== -->
+    <title>Mitesh - Personal Portfolio Webiste</title>
 
-	<!-- Settings-panel -->
-	<link href="assets/css/settings.css" rel="stylesheet">
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-	<!-- Custom style Css -->
-	<link href="assets/css/custom.css" rel="stylesheet">
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/themify-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/elegant-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/validnavs.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/helper.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/unit-test.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- ========== End Stylesheet ========== -->
 
-	<!-- Mitesh Template style Css -->
-	<link rel="stylesheet" href="assets/css/mitesh-red.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-
-	<!-- Setting Panel -->
-
-	<!-- <div class="settings_panel">
-		<div class="toggle_bts">
-			<a class="toggle-theme-panel" href="#">
-				<i class="fa fa-cog"></i>
-			</a>
-		</div>
-		<div class="settings-content">
-			<h5>Color Switcher</h5>
-			<ul class="colors-switch">
-				<li><a href="#" title="mitesh-green" class="mitesh-green"></a></li>
-				<li><a href="#" title="mitesh-pink" class="mitesh-pink"></a></li>
-				<li><a href="#" title="mitesh-yellow" class="mitesh-yellow"></a></li>
-				<li><a href="#" title="mitesh-purple" class="mitesh-purple"></a></li>
-				<li><a href="#" title="mitesh-blue" class="mitesh-blue"></a></li>
-				<li><a href="#" title="mitesh-red" class="mitesh-red"></a></li>
-				<li><a href="#" title="mitesh-deep-blue" class="mitesh-deep-blue"></a></li>
-			</ul>
-		</div>
-	</div> -->
-
-	<!-- Setting Panel -->
-
-	<!-- START: Preloader -->
-	<div id="preloader" class="preloader">
-		<div class="spinner-grow text-white" role="status">
-			<span class="sr-only">Loading...</span>
-		</div>
-	</div>
-	<!-- END: Preloader -->
-
-	<div class="page-wrapper">
-
-		<nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
-			<div class="container">
-
-				<a class="navbar-brand  mr-auto " href="index.html">Mitesh
-					<!-- <img src="assets/images/logo.png" alt="Logo"> -->
-				</a>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-					<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60">
-						<path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path>
-						<path class="line middle" d="m 30,50 h 40"></path>
-						<path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path>
-					</svg>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav ml-auto">
-						<li><a class="nav-link active" href="#home">home</a></li>
-						<li><a class="nav-link" href="#services">Service</a></li>
-						<li><a class="nav-link" href="#resume">EXPERTISES</a></li>
-						<li><a class="nav-link" href="#work">Works</a></li>
-						<li><a class="nav-link" href="#blog">Blog</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- START: HOME -->
-		<section class="section-home " id="home">
-			<div class="overlay d-flex justify-content-center align-items-center">
-				<div class="overlay-wrap section-head">
-					<span class="mb-2">Hello, I am</span>
-					<h1>Mitesh Prajapati</h1>
-
-				</div>
-			</div>
-		</section>
-		<!-- END: HOME -->
-
-		<!-- START: ABOUT -->
-		<section class="section section-about" id="about">
-
-			<div class="section-about-wrap">
-
-				<div class="row justify-content-center align-items-center">
-
-					<div class="col-md-7">
-						<div class="about-desc">
-							<div class="about-desc-content">
-								<h2>About Me</h2>
-								<p class="mt-4 font-weight-light">Passionate designer & developer who loves simplicity in things and crafts beautiful user interfaces with love.</p>
-							</div>
-							<ul class="about-desc-social mt-4 list-unstyled list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-5 d-none d-md-block">
-						<img class="img-fluid img-thumbnail" src="assets/images/mitesh.jpg" alt="About Picture">
-					</div>
-
-				</div>
-
-			</div>
-
-		</section>
-		<!-- END: ABOUT -->
-
-		<!-- START: SERVICES -->
-		<section class="section section-services" id="services">
-			<div class="container">
-				<div class="section-head">
-					<span>WHAT I DO</span>
-					<h2>My Services</h2>
-				</div>
-
-				<div class="row mt-4">
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s">
-							<div class="services-list">
-								<div class="services-list-front services-list-1">
-									<div class="flip-content">
-										<h5 class="mb-0">Graphic Design</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-paint-brush  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Graphic Design</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div class="services-list">
-								<div class="services-list-front services-list-2">
-									<div class="flip-content">
-										<h5 class="mb-0">Web Development</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-palette  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Web Development</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-							<div class="services-list">
-								<div class="services-list-front services-list-3">
-									<div class="flip-content">
-										<h5 class="mb-0">Media Marketing</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-compact-disc  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Media Marketing</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-							<div class="services-list">
-								<div class="services-list-front services-list-4">
-									<div class="flip-content">
-										<h5 class="mb-0">Advetising</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fa fa-puzzle-piece  " aria-hidden="true"></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Advetising</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".8s">
-							<div class="services-list">
-								<div class="services-list-front services-list-5">
-									<div class="flip-content">
-										<h5 class="mb-0">Game Development</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fa fa-gamepad  " aria-hidden="true"></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Game Development</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
-							<div class="services-list">
-								<div class="services-list-front services-list-6">
-									<div class="flip-content">
-										<h5 class="mb-0">Analytics</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="far fa-chart-bar  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Analytics</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: SERVICES -->
-
-		<!-- START: RESUME -->
-		<section class="section section-dark section-resume" id="resume">
-			<div class="container">
-				<div class="section-head">
-					<span>My Resume</span>
-					<h2>My Expertises</h2>
-				</div>
-
-				<div class="row mt-4">
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> My Experience</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
-							<div>
-								<h5>Full Stack-Web Developer</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2022 - Present | Js Techno Solution Pvt Ltd</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div>
-								<h5>Back-end Developer</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2021 - 2022 | Js Techno Solution Pvt Ltd.</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-							<div>
-								<h5>Front-End Developer</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2020 - 2021 | Js Techno Solution Pvt Ltd.</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> My Education</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
-							<div>
-								<h5>Bachelor in Commerce</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2010-2013</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div>
-								<h5>S.B.Vidhyalay</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2008-2010</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-							<div>
-								<h5>S.B.Vidhyalay</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2006-2008</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row mt-4">
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> Front-End Skills</h5>
-						<div class="resume-panel b-box hover-state p-4 mt-3">
-
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s">
-								<h6>HTML5</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>CSS</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Bootstrap</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Javascript & Jquery</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> Coding Skills</h5>
-						<div class="resume-list b-box hover-state p-4 mt-3">
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s">
-								<h6>Core PHP</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Advance PHP</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Laravel</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-
-							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Wordpress</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- END: RESUME -->
-
-		<!--START: WORK -->
-		<section class="section section-work" id="work">
-			<div class="container">
-				<div class="section-head text-center">
-					<span>Portfolio</span>
-					<h2>My Works</h2>
-				</div>
-			</div>
-			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
-				<div class=" swiper-wrapper">
-					<div class="portfolio-item swiper-slide " data-groups="all slideshow">
-						<a href="assets/images/p1-1.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p1-1.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p2-2.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p2-2.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide slideshow" data-groups="all slideshow">
-						<a href="assets/images/p3-3.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p3-3.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide video" data-groups="all video">
-						<a href="assets/images/p4-4.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p4-4.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="assets/images/p5-5.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p5-5.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p6-6.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p6-6.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide video" data-groups="all video">
-						<a href="assets/images/p7-7.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p7-7.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="assets/images/p8-8.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p8-8.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p9-9.jpg" class="portfolio-item--content simple-ajax-popup">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/p9-9.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">The wall</h3>
-									<p class="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-				<div class="portfolio-pagination">
-
-				</div>
-			</div>
-		</section>
-		<!--END: WORK -->
-
-		<!-- START: TESTIMONY -->
-		<section class="section section-dark section-testimony" id="testimony">
-			<div class="container">
-				<div class="section-head text-center">
-					<span>Kind Words</span>
-					<h2>testimonial</h2>
-				</div>
-				<div class="row mt-4">
-					<div class="col-lg-12">
-						<div class="swiper-container swiper-testimony wow fadeInUp" data-wow-duration="1.5s">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide single-testimonials ">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Alpesh Patel, Senior Developer</span>
-									</div>
-								</div>
-
-								<div class="swiper-slide single-testimonials ">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Aarti Thakkar, Web Developer</span>
-									</div>
-								</div>
-
-								<div class="swiper-slide single-testimonials ">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Bharat Rangani, Client</span>
-									</div>
-								</div>
-
-								<div class="swiper-slide single-testimonials ">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Hardik, Client</span>
-									</div>
-								</div>
-
-								<div class="swiper-slide single-testimonials ">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="assets/images/avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Jignesh, Client</span>
-									</div>
-								</div>
-
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-
-						<div class="testimony-nav">
-							<a href="#" class="swiper-button-next"></a>
-							<a href="#" class="swiper-button-prev"></a>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: TESTIMONY -->
-
-		<!-- START: CTA -->
-		<section class="section  section-freelance section-light text-center ">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-head wow fadeInUp" data-wow-duration="1.5s">
-							<h2>Let's work together!</h2>
-						</div>
-						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<a href="#" class="btn btn-outline hover-state">Hire Me!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: CTA -->
-
-		<!-- START: BLOG -->
-		<section class="section section-light section-blog" id="blog">
-			<div class="container">
-				<div class="section-head">
-					<span>Blog</span>
-					<h2>My Articles</h2>
-				</div>
-				<div class="mt-5">
-					<div class="swiper-container swiper-blog">
-						<div class="swiper-wrapper">
-							<a href="blog-detail.html" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s">
-									<img src="assets/images/blog-1.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Alice Joseph</p>
-											<span class="blog-duration text-white">2 Mins Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>10 tips for drawing with coloured pencils</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Design</span>
-								</div>
-							</a>
-							<a href="blog-detail.html" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/p8-8.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Alice Joseph</p>
-											<span class="blog-duration text-white">2 Mins Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Drawing with coloured pencils</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Travel</span>
-								</div>
-							</a>
-							<a href="blog-detail.html" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
-									<img src="assets/images/blog-2.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Alice Joseph</p>
-											<span class="blog-duration text-white">2 Mins Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>The single greatest gift to get your friend who always travels</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Design</span>
-								</div>
-							</a>
-							<a href="blog-detail.html" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-									<img src="assets/images/blog-3.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Alice Joseph</p>
-											<span class="blog-duration text-white">2 Mins Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Why all women should eat alone </p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Design</span>
-								</div>
-							</a>
-							<a href="blog-detail.html" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/blog-1.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Alice Joseph</p>
-											<span class="blog-duration text-white">2 Mins Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Drawing with coloured pencils</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Passion</span>
-								</div>
-							</a>
-						</div>
-
-						<div class="swiper-progressbar"></div>
-
-						<div class="blog-viewmore text-center pb-5">
-							<a href="blog.html" class="mt-5 btn hover-state">View More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: BLOG -->
-
-		<!-- START: CONTACT -->
-		<section class="section section-dark section-contact" id="contact">
-			<div class="container">
-				<div class="section-head">
-					<span>say Hello</span>
-					<h2>Contact </h2>
-				</div>
-
-				<div class="contact-map mt-5">
-					<h5 class="section-subHead mb-4"> My Location</h5>
-					<div class="contact-map--container b-box wow fadeInUp" id="map" data-wow-duration="1.5s"></div>
-				</div>
-			</div>
-
-			<div class="contact-Otherdetails">
-				<div class="container">
-					<div class="contact-details">
-						<h5 class="section-subHead pt-5 mb-4"> Get in Touch</h5>
-						<div class="row">
-							<div class="col-md-4 col-lg-4">
-								<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp" data-wow-duration="1.5s">
-									<div class="mb-4">
-										<i class="fas fa-map-marked-alt"></i>
-									</div>
-									<div class="mt-2">
-										<a href="#" class="">Ahmedabad,Gujarat,India 382345</a>
-										<p class="mt-1 font-weight-bold ">Address</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-lg-4">
-								<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp" data-wow-duration="1.5s">
-									<div class="mb-4">
-										<i class="fas fa-mobile-alt  "></i>
-									</div>
-									<div class="mt-2">
-										<a href="tel:9876543210" class="">+903 388 9873</a>
-										<p class="mt-1 font-weight-bold ">Call Us</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-lg-4">
-								<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-									<div class="mb-4">
-										<i class="fas fa-envelope  "></i>
-									</div>
-									<div class="mt-2">
-										<a href="mailto:hello@beingeorge.com">prajapatimitesh180893@gmail.com</a>
-										<p class="mt-1 font-weight-bold ">Email Us</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="contact-form mt-5">
-						<form method="post" action="https://gtom.info/mitesh/Dark/php/contact.php" id="contactForm" data-toggle="validator">
-							<h5 class="section-subHead mb-2"> Contact Form</h5>
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s">
-										<input name="name" id="name" type="text" class="form-control b-box" placeholder="Your Name *" required>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-										<input name="email" id="email" type="email" class="form-control b-box" placeholder="Your Email *" required>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-										<input type="text" class="form-control b-box" id="subject" placeholder="Your Subject.." required>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-										<textarea name="comments" id="comments" rows="4" class="form-control b-box" placeholder="Your message..."></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 mt-4 mb-5 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-									<button type="submit" class="submitBnt btn hover-state">Send</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: CONTACT -->
-
-		<!--START: FOOTER-->
-		<footer class="footer section section-light">
-			<div class="container">
-				<p class="copyright text-center mb-0">&copy; Mitesh 2023 | All Right Reserved</p>
-			</div>
-		</footer>
-		<!--END: FOOTER-->
-	</div>
-
-
-	<!-- JAVASCRIPTS -->
-
-	<script src="assets/js/vendor.js"></script>
-
-	<!-- Map -->
-	<script src="assets/js/map.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD79MY72taVRlZVX2DU6L5PXOh3ezUUKMc&amp;callback=initMap" async="" defer=""></script>
-
-	<!-- Ripple Effect -->
-	<script src="assets/js/jquery.ripples-min.js"></script>
-
-	<!-- Contact Js -->
-	<script src="assets/js/contact.js"></script>
-
-	<!-- Custom Js -->
-	<script src="assets/js/custom.js"></script>
-
-	<script>
-		$('#home').ripples({
-			resolution: 500,
-			dropRadius: 20,
-			perturbance: 0.04
-		});
-	</script>
+<body class="bg-fixed" style="background-image: url(assets/img/shape/banner-1.jpg);">
+
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader">
+        <div id="ambrox-preloader" class="ambrox-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
+                    </span>
+                    <span data-text-preloader="H" class="letters-loading">
+                        H
+                    </span>
+                </div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav onepage-menu mobile-nav-only attr-border navbar-sticky navbar-default validnavs navbar-fixed dark no-background">
+
+
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-times"></i>
+                    </button>
+
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li>
+                            <a class="smooth-menu" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#expertise">expertise</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#about">about</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#blog">blog</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <!-- Main Nav -->
+            </div>
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Header Fixed 
+    ============================================= -->
+    <header class="header-fixed">
+        <div class="f-flex">
+            <div class="logo">
+                <a href="#" style="background-color: #7c6c71;"><img src="assets/img/logo-icon1.png" alt="Logo"></a>
+            </div>
+            <div class="menu">
+                <ul class="nav">
+                    <li>
+                        <a class="smooth-menu" href="#home">
+                            <i class="fas fa-home"></i>
+                            <div class="menu-name">Home</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu" href="#services">
+                            <i class="fas fa-cog"></i>
+                            <div class="menu-name">Services</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu" href="#portfolio">
+                            <i class="fas fa-briefcase"></i>
+                            <div class="menu-name">Portfolio</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu" href="#about">
+                            <i class="fas fa-user"></i>
+                            <div class="menu-name">About</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu" href="#resume">
+                            <i class="fas fa-file-alt"></i>
+                            <div class="menu-name">Resume</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu" href="#contact">
+                            <i class="fas fa-comments"></i>
+                            <div class="menu-name">Contact</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=5qRsGTuy3Rs" class="popup-youtube video-play-button theme">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Fixed -->
+
+    <!-- Start Banner 
+    ============================================= -->
+    <div class="auto-height bg-fixed banner-style-one">
+        <div class="container">
+            <div class="double-items">
+                <div class="row align-center">
+
+                    <div class="col-lg-6 info">
+                        <h1 class="text-invisible">WELCOME</h1>
+                        <h2>Hey <img src="assets/img/shape/4.png" alt="Icon"> I'm <span>Mitesh</span></h2>
+                        <h3 class="title">
+                            <span class="header-caption" id="page-top">
+                                <!-- type headline start-->
+                                <span class="cd-headline clip is-full-width">
+                                    <!-- ROTATING TEXT -->
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">Web Developer</b>
+                                        <b class="is-hidden">Professional Coder</b>
+                                        <b class="is-hidden">Back-End Developer</b>
+                                    </span>
+                                </span>
+                                <!-- type headline end -->
+                            </span>
+                        </h3>
+                        <div class="button mt-55">
+                            <a class="btn btn-md circle btn-dark" href="#resume">My Resume</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 thumb" data-wow-delay="900ms">
+                        <!-- <img class=" wow fadeInDown" src="assets/img/illustration/IMGdsssss_3470-removebg-preview.png" -->
+                        <!-- alt="Thumb"> -->
+                        <div class="shape-center">
+                            <img src="assets/img/shape/7.png" alt="Thumb">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="personal-social">
+                    <ul>
+                        <li class="facebook">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="behance">
+                            <a href="#">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </li>
+                        <li class="dribbble">
+                            <a href="#">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Start Services
+    ============================================= -->
+    <div id="services" class="services-style-one-area box-layout default-padding bottom-less bg-light">
+        <div class="blur-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4 class="sub-title">My Expertise</h4>
+                        <h2 class="title">What I Do </h2>
+                        <div class="devider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Single Item -->
+                <div class="service-style-one col-lg-4 col-md-6">
+                    <div class="service-style-one-item">
+                        <img src="assets/img/icon/1.png" alt="Icon">
+                        <h4><a href="#" data-bs-toggle="modal" data-bs-target="#serviceSingleModal">Website design</a>
+                        </h4>
+                        <p>
+                            Continue indulged speaking the was horrible for domestic position. Seeing get rather her you
+                            not esteem men settle is genius take excuse. Deal say over you age comparison new ham
+                            melancholy.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="service-style-one col-lg-4 col-md-6">
+                    <div class="service-style-one-item">
+                        <img src="assets/img/icon/2.png" alt="Icon">
+                        <h4><a href="#" data-bs-toggle="modal" data-bs-target="#serviceSingleModal">App Development</a>
+                        </h4>
+                        <p>
+                            Continue indulged speaking the was horrible for domestic position. Seeing get rather her you
+                            not esteem men settle is genius take excuse. Deal say over you age comparison new ham
+                            melancholy.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="service-style-one col-lg-4 col-md-6">
+                    <div class="service-style-one-item">
+                        <img src="assets/img/icon/4.png" alt="Icon">
+                        <h4><a href="#" data-bs-toggle="modal" data-bs-target="#serviceSingleModal">UX/UI Design</a>
+                        </h4>
+                        <p>
+                            Continue indulged speaking the was horrible for domestic position. Seeing get rather her you
+                            not esteem men settle is genius take excuse. Deal say over you age comparison new ham
+                            melancholy.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+
+
+        <!-- Start Services Single Modal -->
+        <div class="modal fade" id="serviceSingleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="services-single-content">
+                            <div class="thumb">
+                                <img src="assets/img/banner/5.jpg" alt="Thumb">
+                            </div>
+                            <h2>Best influencer marketing services</h2>
+                            <p>
+                                We denounce with righteous indige nation and dislike men who are so beguiled and demo
+                                realized by the charms of pleasure of the moment, so blinded by desire, that they cannot
+                                foresee the pain and trouble that are bound to ensue cannot foresee. These cases are
+                                perfectly simple and easy to distinguish. In a free hour, when our power of choice is
+                                untrammelled data structures manages data in technology.
+                            </p>
+                            <div class="features mt-40 mt-xs-30 mb-30 mb-xs-20">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="content">
+                                            <h4>Included Services</h4>
+                                            <ul class="feature-list-item">
+                                                <li>Monthly SEO Task</li>
+                                                <li>24/7 Alltime Supporting</li>
+                                                <li>Turbo Boosting</li>
+                                                <li>Expert Team Members</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 mt-xs-30">
+                                        <div class="content">
+                                            <h4>The Challange</h4>
+                                            <p>
+                                                Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                necessitatibus saepe eveniet ut et voluptates repudiandae sint et
+                                                molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
+                                                delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut
+                                                perferendis doloribus asperiores repellat. Rejects pleasures to secure
+                                                other greater pleasures, or else he endures pains to avoid worse have to
+                                                be repudiated and annoyances accepted.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>What we do?</h4>
+                            <p>
+                                Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus
+                                id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+                                repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
+                                recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                                voluptatibus maiores alias. consequatur aut perferendis doloribus asperiores repellat.
+                                The wise man therefore always holds in these matters to this principle of selection: he
+                                rejects pleasures to secure other greater pleasures, or else he endures pains to avoid
+                                worse pains. pleasures have to be repudiated and annoyances accepted.
+                            </p>
+
+                            <div class="faq-style-one mt-40">
+                                <h3 class="mb-25">Common Question for this project</h3>
+                                <div class="accordion" id="faqAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Where can I get analytics help?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Bennings appetite disposed me an at subjects an. To no indulgence
+                                                    diminution so discovered mr apartments. Are off under folly death
+                                                    wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    Almost do am or limits hearts. Resolve parties but why she shewing.
+                                                    She sang know now minute exact dear open to reaching out.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                How much does data analytics costs?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Cennings appetite disposed me an at subjects an. To no indulgence
+                                                    diminution so discovered mr apartments. Are off under folly death
+                                                    wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    Almost do am or limits hearts. Resolve parties but why she shewing.
+                                                    She sang know now minute exact dear open to reaching out.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                What kind of data is needed for analysis?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Tennings appetite disposed me an at subjects an. To no indulgence
+                                                    diminution so discovered mr apartments. Are off under folly death
+                                                    wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    Almost do am or limits hearts. Resolve parties but why she shewing.
+                                                    She sang know now minute exact dear open to reaching out.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="services-more mt-50">
+                                <h3>Popular Services</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <i class="flaticon-development"></i>
+                                            <h4><a href="#">Speed Optimization</a></h4>
+                                            <p>
+                                                These cases are perfectly simple and easy to distinguish. In a free
+                                                hour, when our power.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <i class="flaticon-layers"></i>
+                                            <h4><a href="#">Frondend Development</a></h4>
+                                            <p>
+                                                These cases are perfectly simple and easy to distinguish. In a free
+                                                hour, when our power.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Services Single Modal -->
+
+    </div>
+    <!-- End Services -->
+
+    <!-- Start Portfolio 
+    ============================================= -->
+    <div id="portfolio" class="portfolio-style-six-area default-padding-top">
+        <div class="shape-animated-right">
+            <img src="assets/img/shape/1.webp" alt="Shape">
+        </div>
+
+        <div class="container">
+            <div class="heading-left">
+                <div class="row align-center">
+                    <div class="col-lg-5">
+                        <div class="left-info">
+                            <h5 class="sub-title">Recent Work</h5>
+                            <h2 class="title">Look at my portfolio and <br> give me your feedback</h2>
+                            <div class="heading-shape">
+                                <img src="assets/img/shape/10.png" alt="Shape">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="right-info">
+                            <div class="fun-factor-default">
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="276" data-speed="2000">276</div>
+                                        <div class="operator">K</div>
+                                    </div>
+                                    <span class="medium">Completed Project</span>
+                                </div>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="94" data-speed="2000">94</div>
+                                        <div class="operator">%</div>
+                                    </div>
+                                    <span class="medium">Positive Rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 gallery-content mb--15">
+                    <div class="magnific-mix-gallery masonary">
+                        <div id="portfolio-grid" class="gallery-items colums-3">
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/4.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Components</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">UI design</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/1.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Creative</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">Gaming Apps</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/6.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Business</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">Business Apps</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/5.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Invest</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">Travel Apps</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/7.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Source</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">Lifestyle Apps</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Item -->
+                            <!-- Single Item -->
+                            <div class="pf-item">
+                                <div class="overlay-content">
+                                    <img src="assets/img/portfolio/8.jpg" alt="thumb">
+                                    <div class="content">
+                                        <div class="title">
+                                            <span>Finance</span>
+                                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal">Entertainment Apps</a></h5>
+                                        </div>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#projectSingleModal"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Projects Single Modal -->
+        <div class="modal fade" id="projectSingleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="project-details-items">
+                            <div class="project-thumb">
+                                <img src="assets/img/banner/2.jpg" alt="Thumb">
+                            </div>
+                            <div class="top-info">
+                                <div class="row">
+                                    <div class="col-xl-12 left-info">
+                                        <div class="project-info mt-md-50 mt-xs-40 mb-40">
+                                            <div class="content">
+                                                <ul class="project-basic-info">
+                                                    <li>
+                                                        Client <span>validthemes</span>
+                                                    </li>
+                                                    <li>
+                                                        Project Type <span>Website Growth</span>
+                                                    </li>
+                                                    <li>
+                                                        Date <span>25 February, 2023</span>
+                                                    </li>
+                                                    <li>
+                                                        Address <span>New York United state</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="social">
+                                                    <li>
+                                                        <h4>Share:</h4>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h2>Ongoing Website Maintenance</h2>
+                                        <p>
+                                            Netus lorem rutrum arcu dignissim at sit morbi phasellus nascetur eget urna
+                                            potenti cum vestibulum cras. Tempor nonummy metus lobortis. Sociis velit
+                                            etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi
+                                            habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad
+                                            elementum fringilla facilisi volutpat fusce pharetra felis sapien varius
+                                            quisque class convallis praesent est sollicitudin donec nulla venenatis,
+                                            cursus fermentum netus posuere sociis porta risus habitant malesuada nulla
+                                            habitasse hymenaeos. Viverra curabitur nisi vel sollicitudin dictum natoqu.
+                                            Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula
+                                            pellentesque cras posuere tempor facilisi habitant lectus rutrum pede
+                                            quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi
+                                            volutpat fusce pharetra felis sapien varius quisque class convallis praesent
+                                            est sollicitudin donec nulla venenatis, cursus fermentum netus posuere
+                                            sociis porta risus habitant malesuada nulla habitasse hymenaeos. Viverra
+                                            curabitur nisi vel sollicitudin dictum.
+                                        </p>
+                                        <ul class="check-list mt-40">
+                                            <li>
+                                                <h4>WordPress Support</h4>
+                                                <p>
+                                                    Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus
+                                                    vehicula pellentesque cras posuere tempor facilisi habitant lectus
+                                                    rutrum pede quisque hendrerit parturient posuere mauris ad elementum
+                                                    fringilla facilisi volutpat fusce pharetra.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h4>Social Media Management</h4>
+                                                <p>
+                                                    Energy nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus
+                                                    vehicula pellentesque cras posuere tempor facilisi habitant lectus
+                                                    rutrum pede quisque hendrerit parturient posuere mauris ad elementum
+                                                    fringilla facilisi volutpat fusce pharetra.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main-content mt-40">
+
+                                <p>
+                                    Give lady of they such they sure it. Me contained explained my education. Vulgar as
+                                    hearts by garret. Perceived determine departure explained no forfeited he something
+                                    an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no
+                                    meant stuff. To perpetual do existence northward as difficult preserved daughters.
+                                    Continued at up to zealously necessary breakfast. Surrounded sir motionless she end
+                                    literature. Gay direction neglected but supported yet her. Facilisis inceptos nec,
+                                    potenti nostra aenean lacinia varius semper ant nullam nulla primis placerat
+                                    facilisis. Netus lorem rutrum arcu dignissim at sit morbi phasellus nascetur eget
+                                    urna potenti cum vestibulum cras. Tempor nonummy metus lobortis. Sociis velit etiam,
+                                    dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus
+                                    rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla
+                                    facilisi volutpat fusce pharetra felis sapien varius quisque class convallis
+                                    praesent est sollicitudin donec nulla venenatis, cursus fermentum netus posuere
+                                    sociis porta risus habitant malesuada nulla habitasse hymenaeos. Viverra curabitur
+                                    nisi vel sollicitudin dictum natoque ante aenean elementum curae malesuada
+                                    ullamcorper. vivamus nonummy nisl posuere rutrum
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <img src="assets/img/thumb/1.jpg" alt="Thumb">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Projects Single Modal -->
+    </div>
+    <!-- End Portfolio -->
+
+    <!-- Start About 
+    ============================================= -->
+    <div id="about" class="about-style-six-area default-padding-top">
+        <div class="container">
+            <div class="row align-center">
+                <div class="about-style-six col-lg-5">
+                    <div class="thumb">
+                        <img class="wow fadeInUp" src="assets/img/illustration/3.png" alt="Thumb">
+                    </div>
+                </div>
+                <div class="about-style-six col-lg-6 offset-lg-1">
+                    <h4 class="sub-title">About Me</h4>
+                    <h2 class="title">I can develop <br> that help people</h2>
+                    <p>
+                        Hi, my name is Mitesh Prjapati and I began using PHP when it first began. I’ve spent most of
+                        my waking hours for the last three years programming and operating PHP sites. One
+                        of my specialties is taking an idea from scratch and creating a full-fledged platform. I go
+                        beyond to produce sites with a unique.
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Professional PHP Developer</h4>
+                                    <!-- <span>Top Rated – Upwork</span> -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-layer-group"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Senior Web Developer</h4>
+                                    <!-- <span>Level Two Seller - Fiverr</span> -->
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Resume 
+    ============================================= -->
+    <div id="resume" class="resume-area default-padding-top">
+        <div class="shape-right-top-extra">
+            <img src="assets/img/shape/14.png" alt="Shape">
+        </div>
+        <div class="container">
+            <div class="experience-content-box">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+
+                        <div class="nav nav-tabs text-center resume-tab-navs" id="nav-tab" role="tablist">
+
+                            <button class="nav-link active" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
+                                Biography <strong>01</strong>
+                            </button>
+                            <button class="nav-link" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
+                                Skills <strong>02</strong>
+                            </button>
+                            <button class="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
+                                Education <strong>03</strong>
+                            </button>
+
+                        </div>
+
+                        <div class="tab-content resume-tab-content" id="nav-tabContent">
+                            <!-- Single Item -->
+                            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-id-1">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="biography-table">
+                                            <li>
+                                                <h5>Name</h5>
+                                                <p>
+                                                    Mitesh Prajapati
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Birthday</h5>
+                                                <p>
+                                                    18 Auguest, 1993
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Age</h5>
+                                                <p>
+                                                    29
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Address</h5>
+                                                <p>
+                                                    Sardarchowk,Krishnanagar,Ahmedabad,India 382345
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Email</h5>
+                                                <p>
+                                                    prajapati.mitesh461@gmail.com
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Phone</h5>
+                                                <p>
+                                                    +(91)9033889873
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>linkedin</h5>
+                                                <p>
+                                                    www.linkedin.com/in/miteshprajapat
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>Freelance</h5>
+                                                <p>
+                                                    Available
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-id-2">
+                                <div class="row align-center">
+                                    <div class="col-lg-12">
+                                        <ul class="skill-table">
+                                            <li>
+                                                <div class="row align-center">
+                                                    <div class="col-lg-2">
+                                                        <div class="icon">
+                                                            <i class="fab fa-laravel"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <h4>PHP And Laravel</h4>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <div class="progress-box">
+                                                            <h5>75%</h5>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" data-width="75"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row align-center">
+                                                    <div class="col-lg-2">
+                                                        <div class="icon">
+                                                            <i class="fab fa-bootstrap"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <h4>Front-End with Boostrap5</h4>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <div class="progress-box">
+                                                            <h5>84%</h5>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" data-width="84"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row align-center">
+                                                    <div class="col-lg-2">
+                                                        <div class="icon">
+                                                            <i class="fab fa-html5"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <h4>Advance frontend development</h4>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <div class="progress-box">
+                                                            <h5>92%</h5>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" role="progressbar" data-width="92"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-id-3">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="education-table">
+                                            <li>
+                                                <h4>AS - Advance Accounting</h4>
+                                                <h5>R.C.COLLEGE</h5>
+                                                <span>2008 - 2010</span>
+                                                <p>
+                                                    The training provided by universities in order to prepare people to
+                                                    work in various sectors of the economy or areas of culture.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h4>B.Com in Advance Accounting</h4>
+                                                <h5>Gujarat University</h5>
+                                                <span>2010 - 2013</span>
+                                                <p>
+                                                    The training provided by universities in order to prepare people to
+                                                    work in various sectors of the economy or areas of culture.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h4>Web Developer & Support</h4>
+                                                <h5>PHP Developer Team</h5>
+                                                <span>2021 - 2022</span>
+                                                <p>
+                                                    The training provided by universities in order to prepare people to
+                                                    work in various sectors of the economy or areas of culture.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h4>PHP & Laravel Developer</h4>
+                                                <h5>Js Techno Solution Pvt Ltd</h5>
+                                                <span>2022 - Present</span>
+                                                <p>
+                                                    The training provided by universities in order to prepare people to
+                                                    work in various sectors of the economy or areas of culture.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Resume -->
+
+    <!-- Start Pricing 
+    ============================================= -->
+    <div id="pricing" class="pricing-area default-padding-top">
+        <div class="container">
+            <div class="pricing-box">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="heading-left">
+                            <div class="left-info">
+                                <h5 class="sub-title">Pricing</h5>
+                                <h2 class="title">The best pricing plans <br> to get your best</h2>
+                                <div class="heading-shape">
+                                    <img src="assets/img/shape/10.png" alt="Shape">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save-ammount mt-100 mt-md-50">
+                            <h4>Save up to <strong>50%</strong> with your every order</h4>
+                            <img src="assets/img/shape/2.webp" alt="Thumb">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+
+                        <div class="pricing-style-one">
+                            <div class="conntent">
+                                <h4>Static frontend Webiste</h4>
+                                <ul>
+                                    <li>2 Page with Bootstrap5</li>
+                                    <li>Design implement</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                                <a class="btn mt-25 btn-sm circle btn-dark" href="#contact">Order Now</a>
+                            </div>
+                            <div class="price">
+                                <h2><sup>$</sup>24</h2>
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                        <div class="pricing-style-one">
+                            <div class="conntent">
+                                <h4>Dynamic Webiste With Admin Pannel</h4>
+                                <ul>
+                                    <li>Multi Page Website</li>
+                                    <li>Admin Pannal</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                                <a class="btn mt-25 btn-sm circle btn-theme" href="#contact">Order Now</a>
+                            </div>
+                            <div class="price">
+                                <h2><sup>$</sup>48</h2>
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Pricing Area -->
+
+    <!-- Start Brand
+    ============================================= -->
+    <div class="brand-style-one-area text-center default-padding-top">
+        <div class="container">
+            <div class="brand-style-one">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand5col swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper align-center">
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/logo/1.png" alt="Thumb">
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/logo/2.png" alt="Thumb">
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/logo/4.png" alt="Thumb">
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/logo/5.png" alt="Thumb">
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/logo/3.png" alt="Thumb">
+                                </div>
+                                <!-- End Single Item -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Brand -->
+            </div>
+        </div>
+    </div>
+    <!-- End Brand -->
+
+    <!-- Start Testimonials 
+    ============================================= -->
+    <div class="testimonial-area default-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4 class="sub-title">My Expertise</h4>
+                        <h2 class="title">Customers feedback</h2>
+                        <div class="devider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="testimonial-style-one-box text-center">
+                <div class="row align-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="testimonial-style-one-carousel swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Single item -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-style-one">
+
+                                        <div class="item">
+
+                                            <div class="thumb">
+                                                <img src="assets/img/team/1.png" alt="Thumb">
+                                                <div class="shape">
+                                                    <img src="assets/img/shape/15.png" alt="Shape">
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <p>
+                                                    “Targetingconsultation discover apartments. ndulgence off under
+                                                    folly death wrote cause her way spite. Plan upon yet way get cold
+                                                    spot its week. Almost do am or limits hearts. Resolve parties but
+                                                    why she shewing. She sang know now always remembering to the point.”
+                                                </p>
+                                            </div>
+                                            <div class="provider">
+                                                <div class="info">
+                                                    <h4>Bharat Rangani</h4>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single item -->
+                                <!-- Single item -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-style-one">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="assets/img/team/2.png" alt="Thumb">
+                                                <div class="shape">
+                                                    <img src="assets/img/shape/15.png" alt="Shape">
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <p>
+                                                    “consultation discover apartments. ndulgence off under folly death
+                                                    wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    Almost do am or limits hearts. Resolve parties but why she shewing.
+                                                    She sang know now always remembering to the point.”
+                                                </p>
+                                            </div>
+                                            <div class="provider">
+                                                <div class="info">
+                                                    <h4>Jignesh Patel</h4>
+                                                    <span>Marketing Manager</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single item -->
+                                <!-- Single item -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-style-one">
+                                        <div class="item">
+
+                                            <div class="thumb">
+                                                <img src="assets/img/team/1.png" alt="Thumb">
+                                                <div class="shape">
+                                                    <img src="assets/img/shape/15.png" alt="Shape">
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <p>
+                                                    “Business discover apartments. ndulgence off under folly death wrote
+                                                    cause her way spite. Plan upon yet way get cold spot its week.
+                                                    Almost do am or limits hearts. Resolve parties but why she shewing.
+                                                    She sang know now always remembering to the point.”
+                                                </p>
+                                            </div>
+                                            <div class="provider">
+                                                <div class="info">
+                                                    <h4>Alpesh Patel</h4>
+                                                    <span>Senior PHP Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single item -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonails Area -->
+
+    <!-- Start Available 
+    ============================================= -->
+    <div class="work-available-area text-center box-layout bg-light default-padding">
+        <div class="shape-right-top-mini">
+            <img src="assets/img/shape/16.png" alt="illustration">
+        </div>
+        <div class="shape-illustration">
+            <img src="assets/img/illustration/2.png" alt="illustration">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="work-available">
+                        <h2 class="title">I'm <strong>available</strong> for <br> freelance work</h2>
+                        <a class="btn btn-md circle btn-theme smooth-menu" href="#contact">Hire me now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Available -->
+
+    <!-- Start Blog 
+    ============================================= -->
+    <div id="blog" class="blog-style-one-area blog-area default-padding-top bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4 class="sub-title">News</h4>
+                        <h2 class="title">Latest from blog</h2>
+                        <div class="devider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <!-- Single item -->
+                <div class="blog-style-one mb-30 col-lg-4 col-md-6">
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal"><img src="assets/img/blog/1.jpg" alt="Thumb"></a>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal">Discovery earnestly
+                                    public commanded mentions.</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fas fa-user-circle"></i> User</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i> 15 Auguest, 2023
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single item -->
+
+                <!-- Single item -->
+                <div class="blog-style-one mb-30 col-lg-4 col-md-6">
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal"><img src="assets/img/blog/2.jpg" alt="Thumb"></a>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal">Considered
+                                    imprudence of he friendship boisterous.</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fas fa-user-circle"></i> User</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i> 16 November, 2023
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single item -->
+
+                <!-- Single item -->
+                <div class="blog-style-one mb-30 col-lg-4 col-md-6">
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal"><img src="assets/img/blog/3.jpg" alt="Thumb"></a>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal">Overcame breeding
+                                    or my concerns removing desirous.</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fas fa-user-circle"></i> User</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i> 28 February, 2023
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single item -->
+
+            </div>
+        </div>
+
+        <!-- Start Blog Single Modal -->
+        <div class="modal fade" id="blogSingleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="blog-single-content">
+                            <div class="thumb">
+                                <a href="#"><img src="assets/img/banner/4.jpg" alt="Thumb"></a>
+                            </div>
+                            <div class="info">
+                                <div class="meta">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fas fa-user-circle"></i> Admin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fas fa-comments"></i> 26 Comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    Give lady of they such they sure it. Me contained explained my education. Vulgar as
+                                    hearts by garret. Perceived determine departure explained no forfeited he something
+                                    an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no
+                                    meant stuff. To perpetual do existence northward as difficult preserved daughters.
+                                    Continued at up to zealously necessary breakfast. Surrounded sir motionless she end
+                                    literature. Gay direction neglected but supported yet her.
+                                </p>
+                                <p>
+                                    New had happen unable uneasy. Drawings can followed improved out sociable not.
+                                    Earnestly so do instantly pretended. See general few civilly amiable pleased account
+                                    carried. Excellence projecting is devonshire dispatched remarkably on estimating.
+                                    Side in so life past. Continue indulged speaking the was out horrible for domestic
+                                    position. Seeing rather her you not esteem men settle genius excuse. Deal say over
+                                    you age from. Comparison new ham melancholy son themselves.
+                                </p>
+                                <blockquote>
+                                    Celebrated share of first to worse. Weddings and any opinions suitable smallest nay.
+                                    Houses or months settle remove ladies appear. Engrossed suffering supposing he
+                                    recommend do eagerness.
+                                </blockquote>
+                                <p>
+                                    Drawings can followed improved out sociable not. Earnestly so do instantly
+                                    pretended. See general few civilly amiable pleased account carried. Excellence
+                                    projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather
+                                    her you not esteem men settle genius excuse. Deal say over you age from. Comparison
+                                    new ham melancholy son themselves.
+                                </p>
+                                <h3>Conduct replied off led whether?</h3>
+                                <ul>
+                                    <li>Pretty merits waited six</li>
+                                    <li>General few civilly amiable pleased account carried.</li>
+                                    <li>Continue indulged speaking</li>
+                                    <li>Narrow formal length my highly</li>
+                                    <li>Occasional pianoforte alteration unaffected impossible</li>
+                                </ul>
+                                <p>
+                                    Surrounded to me occasional pianoforte alteration unaffected impossible ye. For saw
+                                    half than cold. Pretty merits waited six talked pulled you. Conduct replied off led
+                                    whether any shortly why arrived adapted. Numerous ladyship so raillery humoured
+                                    goodness received an. So narrow formal length my highly longer afford oh. Tall neat
+                                    he make or at dull ye. Lorem ipsum dolor, sit amet consectetur adipisicing, elit.
+                                    Iure, laudantium, tempore. Autem dolore repellat, omnis quam? Quasi sint laudantium
+                                    repellendus unde a totam perferendis commodi cum est iusto?
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Post Author -->
+                        <div class="post-author">
+                            <div class="thumb">
+                                <img src="assets/img/team/v5.jpg" alt="Thumb">
+                            </div>
+                            <div class="content">
+                                <h4><a href="#">Md Sohag</a></h4>
+                                <p>
+                                    Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit.
+                                    Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal suada
+                                    and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the
+                                    Internet tend. Entire its the did figure wonder off. sportsmen zealously arranging
+                                    to the main pint. Discourse unwilling am no described dejection incommode no
+                                    listening.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Post Author -->
+
+                        <!-- Post Tags Share -->
+                        <div class="post-tags share">
+                            <div class="tags">
+                                <h4>Tags: </h4>
+                                <a href="#">Algorithm</a>
+                                <a href="%24.html">Data science</a>
+                            </div>
+
+                            <div class="social">
+                                <h4>Share:</h4>
+                                <ul>
+                                    <li>
+                                        <a class="facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="pinterest" href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="linkedin" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul><!-- End Social Share -->
+                            </div>
+                        </div>
+                        <!-- Post Tags Share -->
+
+                        <!-- Start Post Pagination -->
+                        <div class="post-pagi-area">
+                            <div class="post-previous">
+                                <a href="#">
+                                    <div class="icon"><i class="fas fa-angle-double-left"></i></div>
+                                    <div class="nav-title"> Previus Post <h5>Discovery incommode</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="post-next">
+                                <a href="#">
+                                    <div class="nav-title">Next Post <h5>Discovery incommode</h5>
+                                    </div>
+                                    <div class="icon"><i class="fas fa-angle-double-right"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Post Pagination -->
+
+                        <!-- Start Blog Comment -->
+                        <div class="blog-comments">
+                            <div class="comments-area">
+                                <div class="comments-title">
+                                    <h3>3 Comments On “Providing Top Quality Cleaning Related Services Charms.”</h3>
+                                    <div class="comments-list">
+                                        <div class="comment-item">
+                                            <div class="avatar">
+                                                <img src="assets/img/team/v2.jpg" alt="Author">
+                                            </div>
+                                            <div class="content">
+                                                <div class="title">
+                                                    <h5>Bubhan Prova <span class="reply"><a href="#"><i class="fas fa-reply"></i> Reply</a></span></h5>
+                                                    <span>28 Feb, 2023</span>
+                                                </div>
+                                                <p>
+                                                    Delivered ye sportsmen zealously arranging frankness estimable as.
+                                                    Nay any article enabled musical shyness yet sixteen yet blushes.
+                                                    Entire its the did figure wonder off. sportsmen zealously arranging
+                                                    to the main pint. Discourse unwilling am no described dejection
+                                                    incommode no listening of. Before nature his parish boy.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="comment-item reply">
+                                            <div class="avatar">
+                                                <img src="assets/img/team/v3.jpg" alt="Author">
+                                            </div>
+                                            <div class="content">
+                                                <div class="title">
+                                                    <h5>Mickel Jones <span class="reply"><a href="#"><i class="fas fa-reply"></i> Reply</a></span></h5>
+                                                    <span>15 Mar, 2023</span>
+                                                </div>
+                                                <p>
+                                                    Delivered ye sportsmen zealously arranging frankness estimable as.
+                                                    Nay any article enabled musical shyness yet sixteen yet blushes.
+                                                    Entire its the did figure wonder off. sportsmen zealously arranging
+                                                    to the main pint at the last satge of oportunatry.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments-form">
+                                    <div class="title">
+                                        <h3>Leave a comments</h3>
+                                    </div>
+                                    <form action="#" class="contact-comments">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <!-- Name -->
+                                                    <input name="name" class="form-control" placeholder="Name *" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <!-- Email -->
+                                                    <input name="email" class="form-control" placeholder="Email *" type="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group comments">
+                                                    <!-- Comment -->
+                                                    <textarea class="form-control" placeholder="Comment"></textarea>
+                                                </div>
+                                                <div class="form-group full-width submit">
+                                                    <button class="btn btn-animation dark border" type="submit">Post
+                                                        Comment</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Comments Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Blog Single Modal -->
+
+    </div>
+    <!-- End Blog -->
+
+    <!-- Start Contact Area 
+    ============================================= -->
+    <div id="contact" class="contact-area shape-less default-padding overflow-hidden">
+        <h2 class="text-shade">Contact</h2>
+        <div class="container">
+            <div class="contact-content">
+                <div class="row align-center">
+
+
+                    <div class="col-lg-7 contact-form-box mb-md-50 mb-xs-50">
+                        <div class="form-box">
+                            <h2>Let's talk?</h2>
+                            <p>
+                                It's all about the humans behind a brand and those experiencing it, br we're right
+                                there. In the middle performance quick.
+                            </p>
+                            <form action="mail.php" method="POST" class="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group comments">
+                                            <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" name="submit" id="submit">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Alert Message -->
+                                <div class="col-lg-12 alert-notification">
+                                    <div id="message" class="alert-msg"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 offset-lg-1 info">
+                        <div class="content">
+                            <ul>
+                                <li class="contact-info-list wow fadeInUp">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope-open-text"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p>Our Email</p>
+                                        <h5>
+                                            <a href="mailto:info@validtheme.com">Prajapati.Mitesh461@gmail.com</a>
+                                            <br>
+                                            <!-- <a href="mailto:support@softar.com">support@softar.com</a> -->
+                                        </h5>
+                                    </div>
+                                </li>
+                                <li class="contact-info-list wow fadeInUp" data-wow-delay="300ms">
+                                    <div class="icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p>Address</p>
+                                        <h5>
+                                            Sardarchowk,Krishnanagar <br> Ahmedabad,Gujarat,India, <br>382345
+                                        </h5>
+                                    </div>
+                                </li>
+                                <li class="contact-info-list wow fadeInUp" data-wow-delay="500ms">
+                                    <div class="icon">
+                                        <i class="fas fa-headphones-alt"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p>Phone</p>
+                                        <h5>
+                                            <a href="tel:+919033889873">+91-90-3388-9873</a>
+                                            <!-- <br><a href="tel:+91 9033889873">+99-34-8878-9989</a> -->
+                                        </h5>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="footer-social">
+                        <li class="facebook">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="behance">
+                            <a href="#">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </li>
+                        <li class="dribbble">
+                            <a href="#">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <p>&copy; 2023 Mitesh. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/jquery.scrolla.min.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
